@@ -57,7 +57,7 @@ export default function LandingPage() {
             className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-blue-700 inline-flex items-center"
             onClick={() => toast.loading("coming soon...")}
           >
-            Start Now - First Task Free
+            Start Now - 3 Tasks Free / Month
             <ChevronRight className="ml-2" />
           </button>
         </div>
@@ -169,14 +169,14 @@ export default function LandingPage() {
             </div>
             <div className="flex flex-row gap-x-5">
               <img
-                src="/Earn.png"
+                src="/Home.jpeg"
                 alt="TaskBuddy App Interface"
-                className="rounded-3xl shadow-2xl h-[800px]"
+                className="rounded-3xl h-[800px]"
               />
               <img
-                src="/Order.png"
+                src="/Tasks.jpeg"
                 alt="TaskBuddy App Interface"
-                className="rounded-3xl shadow-2xl h-[800px]"
+                className="rounded-3xl h-[800px]"
               />
             </div>
           </div>
@@ -193,7 +193,7 @@ export default function LandingPage() {
             <div className="bg-white rounded-xl shadow-sm overflow-hidden">
               <div className="p-8">
                 <h3 className="text-2xl font-bold text-center mb-4">
-                  Free Plan
+                  Basic Plan
                 </h3>
                 <div className="text-center mb-6">
                   <span className="text-4xl font-bold">$0</span>
@@ -202,7 +202,11 @@ export default function LandingPage() {
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center">
                     <ChevronRight className="w-5 h-5 text-blue-600 mr-2" />
-                    <span>One free task</span>
+                    <span>Request 3 tasks / month</span>
+                  </li>
+                  <li className="flex items-center">
+                    <ChevronRight className="w-5 h-5 text-blue-600 mr-2" />
+                    <span>Complete 3 tasks / month</span>
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="w-5 h-5 text-blue-600 mr-2" />
@@ -234,7 +238,11 @@ export default function LandingPage() {
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-center">
                     <ChevronRight className="w-5 h-5 text-blue-600 mr-2" />
-                    <span>Unlimited tasks</span>
+                    <span>Request unlimited tasks / month</span>
+                  </li>
+                  <li className="flex items-center">
+                    <ChevronRight className="w-5 h-5 text-blue-600 mr-2" />
+                    <span>Complete unlimited tasks / month</span>
                   </li>
                   <li className="flex items-center">
                     <ChevronRight className="w-5 h-5 text-blue-600 mr-2" />
